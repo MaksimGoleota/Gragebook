@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Gradebook</string>
+    <string name="text_authorization">Авторизация</string>
+    <string name="btn_vhod">Войти</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="create_password">Создание пароля</string>
+    <string name="create_paasord_edit">Введине пароль</string>
+    <string name="btn_create_password">Создать</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_new_subject">Создание нового предмета</string>
+    <string name="btn_sub">Создать предмет</string>
+    <string name="zvxbznz">Введите название предмета</string>
+    <string name="cvcv">Напишите текст:</string>
+    <string name="zzzzzzz">Введите новый пароль :</string>
 </resources>

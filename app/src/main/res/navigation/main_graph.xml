@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/authorizationFragment"
+    tools:ignore="UnusedNavigation">
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="com.merio.gradebook.ui.authorization.AuthorizationFragment"
+        android:label="AuthorizationFragment"
+        tools:layout="@layout/authorization_fragment">
+        <action
+            android:id="@+id/action_authorizationFragment_to_listSubjectFragment"
+            app:destination="@id/listSubjectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listSubjectFragment"
+        android:name="com.merio.gradebook.ui.ListSubjectFragment"
+        android:label="ListSubjectFragment"
+        tools:layout="@layout/list_subject_fragment"/>
+</navigation>
